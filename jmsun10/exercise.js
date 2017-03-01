@@ -103,7 +103,7 @@ exercise.totalEarningsWithOvertime = function() {
 
 
 exercise.get_zip = function(row){
-    return row[19];
+    return Number(row[19]);
 }
 // exercise.unique = function([]){
 //     if(x1 === x2){
